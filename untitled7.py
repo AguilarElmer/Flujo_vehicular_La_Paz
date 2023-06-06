@@ -29,8 +29,6 @@ voc_classes = ["background",
             "motorbike",
             "person"]  # Lista de las clases de objetos en el conjunto de datos VOC Detection
 
-import torch  # Importación de librerías
-import torchvision
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
