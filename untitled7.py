@@ -114,7 +114,6 @@ plot_anns(img_np, anns)
 plt.show()
 
 import cv2
-import torch
 from google.colab.patches import cv2_imshow
 # Cargar el modelo preentrenado Faster R-CNN
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
